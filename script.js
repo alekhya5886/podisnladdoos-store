@@ -113,7 +113,7 @@ const PRODUCTS = [
   },
 
   {
-    id: 6,
+    id: 5,
     name: "Nalla Karam",
     category: "podi",
     description: "Traditional homemade nalla karam.",
@@ -128,7 +128,7 @@ const PRODUCTS = [
   },
 
   {
-    id: 7,
+    id: 6,
     name: "Vellulli Karam Podi",
     category: "podi",
     description: "Homemade garlic karam podi.",
@@ -143,7 +143,7 @@ const PRODUCTS = [
   },
 
   {
-    id: 8,
+    id: 7,
     name: "Nuvvula Podi",
     category: "podi",
     description: "Traditional sesame podi.",
@@ -158,7 +158,7 @@ const PRODUCTS = [
   },
 
   {
-    id: 10,
+    id: 8,
     name: "Kura Karam",
     category: "podi",
     description: "Homemade seasoning powder for curries.",
@@ -173,7 +173,7 @@ const PRODUCTS = [
   },
  
   {
-    id: 11,
+    id: 9,
     name: "Putnala Podi",
     category: "podi",
     description: "Homemade roasted gram podi.",
@@ -188,7 +188,7 @@ const PRODUCTS = [
   },
 
   {
-    id: 12,
+    id: 10,
     name: "Palli Podi",
     category: "podi",
     description: "Traditional peanut podi.",
@@ -204,7 +204,7 @@ const PRODUCTS = [
 
 
   {
-    id: 13,
+    id: 11,
     name: "Kobbari Podi",
     category: "podi",
     description: "Homemade coconut podi.",
@@ -220,7 +220,7 @@ const PRODUCTS = [
 
 
   {
-    id: 14,
+    id: 12,
     name: "Charu Podi",
     category: "podi",
     description: "Traditional homemade rasam spice powder.",
@@ -240,7 +240,7 @@ const PRODUCTS = [
   // Available: 250 g, 500 g, 1 kg
   // =========================
   {
-    id: 15,
+    id: 13,
     name: "Ravva Laddoo",
     category: "laddoo",
     description: "Traditional homemade ravva laddoo.",
@@ -255,7 +255,7 @@ const PRODUCTS = [
   },
 
   {
-    id: 16,
+    id: 14,
     name: "Bhoondi Laddoo",
     category: "laddoo",
     description: "Classic homemade bhoondi laddoo.",
@@ -271,7 +271,7 @@ const PRODUCTS = [
 
 
   {
-    id: 18,
+    id: 15,
     name: "Protein Laddoo",
     category: "laddoo",
     description: "Homemade protein laddoo.",
@@ -288,7 +288,7 @@ const PRODUCTS = [
 
   // Sunnundalu — ₹600/kg
   {
-    id: 19,
+    id: 16,
     name: "Sunnundalu",
     category: "laddoo",
     description: "Traditional homemade sunnundalu.",
@@ -303,7 +303,7 @@ const PRODUCTS = [
   },
 
   {
-    id: 20,
+    id: 17,
     name: "Dry Fruit Laddoo",
     category: "laddoo",
     description: "Rich homemade dry fruit laddoo.",
@@ -323,7 +323,7 @@ const PRODUCTS = [
   // Available: 250 g, 500 g, 1 kg
   // =========================
   {
-    id: 21,
+    id: 18,
     name: "Gongura Pickle",
     category: "pickle",
     description: "Traditional homemade gongura pickle.",
@@ -338,7 +338,7 @@ const PRODUCTS = [
   },
 
   {
-    id: 22,
+    id: 19,
     name: "Lemon Pickle",
     category: "pickle",
     description: "Homemade traditional lemon pickle.",
@@ -354,7 +354,7 @@ const PRODUCTS = [
   
 
   {
-    id: 23,
+    id: 20,
     name: "Kothimeera Pickle",
     category: "pickle",
     description: "Homemade coriander pickle.",
@@ -369,7 +369,7 @@ const PRODUCTS = [
   },
 
   {
-    id: 24,
+    id: 21,
     name: "Tomato Pickle",
     category: "pickle",
     description: "Traditional homemade tomato pickle.",
@@ -385,7 +385,7 @@ const PRODUCTS = [
   
   // Avakaya — ₹600/kg
   {
-    id: 25,
+    id: 22,
     name: "Avakaya",
     category: "pickle",
     description: "Traditional homemade avakaya pickle.",
@@ -402,7 +402,7 @@ const PRODUCTS = [
 
   // Magaya — ₹600/kg
   {
-    id: 26,
+    id: 23,
     name: "Magaya",
     category: "pickle",
     description: "Traditional homemade magaya pickle.",
@@ -419,7 +419,7 @@ const PRODUCTS = [
 Sweets & Hot
 ========================================= */
   {
-    id: 26,
+    id: 24,
     name: "Bellam & Nuvvulu Kajjikayalu",
     category: "sweet",
     description: "Traditional homemade Bellam & Nuvvulu Kajjikayalu made with wheat flour.",
@@ -429,11 +429,11 @@ Sweets & Hot
       { label: "500 g", price: 300 },
       { label: "1 kg", price: 600 }
     ],
-    image: "images/magaya.png",
+    image: "images/nuvvula-kajjikayalu.png",
     badge: ""
   },
   {
-    id: 26,
+    id: 25,
     name: "Kobbari & Putnalu Kajjikayalu",
     category: "sweet",
     description: "Traditional homemade Kobbari & Putnalu Kajjikayalu made with wheat flour.",
@@ -443,21 +443,7 @@ Sweets & Hot
       { label: "500 g", price: 300 },
       { label: "1 kg", price: 600 }
     ],
-    image: "images/magaya.png",
-    badge: ""
-  },
-  {
-    id: 26,
-    name: "Bellam Gavvalu with Wheat flour",
-    category: "sweet",
-    description: "Traditional homemade Bellam Gavvalu made with wheat flour.",
-    price: 150,
-    sizes: [
-      { label: "250 g", price: 250 },
-      { label: "500 g", price: 300 },
-      { label: "1 kg", price: 600 }
-    ],
-    image: "images/magaya.png",
+    image: "images/bellam-kajjikayalu.png",
     badge: ""
   },
     {
@@ -471,11 +457,11 @@ Sweets & Hot
       { label: "500 g", price: 250 },
       { label: "1 kg", price: 500 }
     ],
-    image: "images/magaya.png",
+    image: "images/cornflakes-mixture.png",
     badge: ""
   },
   {
-    id: 26,
+    id: 27,
     name: "Bellam Gavvalu with Wheat flour",
     category: "sweet",
     description: "Traditional homemade Bellam Gavvalu made with wheat flour.",
@@ -485,11 +471,11 @@ Sweets & Hot
       { label: "500 g", price: 300 },
       { label: "1 kg", price: 600 }
     ],
-    image: "images/magaya.png",
+    image: "images/gavvalu.png",
     badge: ""
   },
     {
-    id: 26,
+    id: 28,
     name: "Karapusa",
     category: "hot",
     description: "Traditional homemade karapusa",
@@ -499,11 +485,11 @@ Sweets & Hot
       { label: "500 g", price: 300 },
       { label: "1 kg", price: 600 }
     ],
-    image: "images/magaya.png",
+    image: "images/karapusa.png",
     badge: ""
   },
   {
-    id: 26,
+    id: 29,
     name: "Chekkalu",
     category: "hot",
     description: "Traditional homemade chekkalu",
@@ -513,7 +499,7 @@ Sweets & Hot
       { label: "500 g", price: 300 },
       { label: "1 kg", price: 600 }
     ],
-    image: "images/magaya.png",
+    image: "images/chekkalu.png",
     badge: ""
   }
 ];
