@@ -13,8 +13,7 @@ const STORE = {
   whatsappNumber: "919652405892",
 
   // Your personal/business UPI ID.
-  // Example: yourname@okaxis
-  upiId: "seshukumarimadiraju2@okicici",
+  // Example: yourname@okaxi
 
   // Optional: use the Google Analytics Measurement ID
   // you configured in index.html.
