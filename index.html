@@ -1,0 +1,245 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Homemade podis and traditional laddoos, prepared with care.">
+  <meta name="theme-color" content="#faf5eb">
+  <title>Podis & Laddoos | Homemade Goodness</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <!-- GOOGLE ANALYTICS:
+       Replace G-XXXXXXXXXX with your actual Measurement ID.
+       Leave this commented until you have an Analytics ID. -->
+  <!--
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX');
+  </script>
+  -->
+
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <div class="announcement">
+    Homemade with love · Fresh batches · Traditional flavours
+  </div>
+
+  <header class="site-header">
+    
+    <a href="index.html" class="brand">
+    <img
+        src="images/logo.jpeg"
+        alt="Podis & Laddoos logo"
+        class="brand-logo"
+    />
+    <span class="brand-name">Podis & Laddoos</span>
+    </a>
+
+    <nav class="desktop-nav">
+      <a href="#home">Home</a>
+      <a href="#products">Our products</a>
+      <a href="#about">Our story</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <button class="cart-button" id="open-cart" type="button">
+      Basket <span id="cart-count">0</span>
+    </button>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <span class="eyebrow">A LITTLE TASTE OF HOME</span>
+        <h1>Made with love.<br><em>Remembered</em> with every bite.</h1>
+        <p>
+          From flavourful homemade podis to traditional laddoos,
+          bring a little homemade happiness to your everyday meals.
+        </p>
+        <a href="#products" class="primary-button">Explore our collection ↗</a>
+        <div class="hero-note">
+          <span>♡</span> Small batches, familiar flavours, lots of love.
+        </div>
+      </div>
+
+      <div class="hero-art">
+        <img
+          src="images/hero.png"
+          alt="Your homemade podis and laddoos"
+          onerror="this.style.display='none';this.nextElementSibling.style.display='flex';"
+        >
+        <div class="image-placeholder">
+          <span>🥣</span>
+          <strong>Your food photography goes here</strong>
+          <small>Add your photo as images/hero.jpg</small>
+        </div>
+        <div class="hero-sticker">Homemade<br>with ♥</div>
+      </div>
+    </section>
+
+    <section class="trust-strip">
+      <div><span>✿</span> Made in small batches</div>
+      <div><span>♡</span> Made with care</div>
+      <div><span>☼</span> Traditional favourites</div>
+    </section>
+
+    <section class="products-section section" id="products">
+      <div class="section-heading">
+        <div>
+          <span class="eyebrow">GOOD FOOD, GOOD MOOD</span>
+          <h2>A little something <em>delicious.</em></h2>
+          <p>Find your favourites and place an order with us on WhatsApp.</p>
+        </div>
+      </div>
+
+      <div class="catalogue-tools">
+        
+        <div class="filter-buttons" id="category-filters">
+        <button class="filter-button active" data-category="all">All products</button>
+        <button class="filter-button" data-category="podi">Podis</button>
+        <button class="filter-button" data-category="laddoo">Laddoos</button>
+        <button class="filter-button" data-category="sweet">Sweets</button>
+        <button class="filter-button" data-category="pickle">Pickles</button>
+        <button class="filter-button" data-category="hot">Hot Items</button>
+        </div>
+
+
+        <input
+          type="search"
+          id="product-search"
+          placeholder="Search products..."
+          aria-label="Search products"
+        >
+      </div>
+
+      <div class="product-grid" id="product-grid"></div>
+      <p class="empty-message" id="empty-message" hidden>
+        No products found. Try another search.
+      </p>
+    </section>
+
+    <section class="story-section" id="about">
+      <div class="story-art">
+        <span>♥</span>
+        <p>A little homemade<br>happiness.</p>
+      </div>
+      <div class="story-content">
+        <span class="eyebrow">OUR LITTLE STORY</span>
+        <h2>Some flavours just feel <em>like home.</em></h2>
+        <p>
+          We believe the simplest foods can bring the biggest smiles.
+          Every product is prepared with care, inspired by familiar
+          flavours and the joy of sharing something homemade.
+        </p>
+        <p>
+          Thank you for supporting our little business and being part
+          of our journey.
+        </p>
+        <a href="#products" class="text-link">Find your favourite →</a>
+      </div>
+    </section>
+
+    <section class="order-banner">
+      <div>
+        <span class="eyebrow">YOUR NEXT FAVOURITE IS WAITING</span>
+        <h2>Craving something homemade?</h2>
+        <p>Choose your favourites and send us your order.</p>
+      </div>
+      <a href="#products" class="light-button">Shop the collection ↗</a>
+    </section>
+
+    <section class="contact-section section" id="contact">
+      <span class="eyebrow">WE'D LOVE TO HEAR FROM YOU</span>
+      <h2>Let's talk <em>food.</em></h2>
+      <p>Have a question about a product or your order?</p>
+      <button class="primary-button" id="contact-whatsapp" type="button">
+        Message us on WhatsApp ↗
+      </button>
+      <p class="contact-note">
+        Business hours: <span id="business-hours">Add your business hours</span>
+      </p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a href="#home" class="footer-brand" id="footer-brand">Podis & Laddoos</a>
+    <p>Made with love, shared with happiness. ♥</p>
+    <p class="copyright">© <span id="year"></span> <span id="footer-name">Podis & Laddoos</span></p>
+  </footer>
+
+  <!-- Cart drawer -->
+  <div class="overlay" id="cart-overlay" hidden></div>
+
+  <aside class="cart-drawer" id="cart-drawer" aria-label="Shopping basket" aria-hidden="true">
+    <div class="drawer-header">
+      <div>
+        <span class="eyebrow">YOUR SELECTION</span>
+        <h2>Your basket</h2>
+      </div>
+      <button class="icon-button" id="close-cart" aria-label="Close basket" type="button">✕</button>
+    </div>
+
+    <div id="cart-items" class="cart-items"></div>
+
+    <div class="cart-footer">
+      <div class="cart-total">
+        <span>Subtotal</span>
+        <strong id="cart-total">₹0</strong>
+      </div>
+      <p class="small-note">Delivery charges, if any, will be confirmed on WhatsApp.</p>
+      <button class="primary-button full-button" id="checkout-button" type="button">
+        Continue to checkout →
+      </button>
+    </div>
+  </aside>
+
+  <!-- Checkout modal -->
+  <div class="modal-overlay" id="checkout-overlay" hidden>
+    <section class="checkout-modal" role="dialog" aria-modal="true" aria-labelledby="checkout-title">
+      <div class="drawer-header">
+        <div>
+          <span class="eyebrow">ALMOST THERE</span>
+          <h2 id="checkout-title">Your order details</h2>
+        </div>
+        <button class="icon-button" id="close-checkout" type="button" aria-label="Close checkout">✕</button>
+      </div>
+
+      <form id="checkout-form">
+        <label for="customer-name">Your name *</label>
+        <input id="customer-name" name="name" required maxlength="100" autocomplete="name" placeholder="Enter your name">
+
+        <label for="customer-phone">Phone number *</label>
+        <input id="customer-phone" name="phone" required type="tel" maxlength="16" autocomplete="tel" placeholder="Your contact number">
+
+        <label for="customer-address">Delivery address *</label>
+        <textarea id="customer-address" name="address" required maxlength="500" autocomplete="street-address" rows="3" placeholder="House number, street, area, city, PIN code"></textarea>
+
+        <label for="customer-notes">Anything else? (optional)</label>
+        <textarea id="customer-notes" name="notes" maxlength="300" rows="2" placeholder="Delivery instructions or preferences"></textarea>
+
+        <div class="checkout-summary">
+          <span>Order subtotal</span>
+          <strong id="checkout-total">₹0</strong>
+        </div>
+
+        <button class="primary-button full-button" type="submit">
+          Send order to WhatsApp ↗
+        </button>
+        <p class="small-note">
+          Your details will be included in the WhatsApp message you choose to send.
+        </p>
+      </form>
+    </section>
+  </div>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+</body>
+</html>
